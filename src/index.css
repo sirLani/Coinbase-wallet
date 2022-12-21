@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width:1040px; 
+  display:flex; 
+  margin:0 auto;
+  background-color: #ffffff;
+  flex-direction: column; 
+  padding: 3rem;
+  margin-top: 3rem;
+
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4e4e8b;
+    display:flex; 
+    flex-direction : column;
+
+    background-image: url("/public/mp-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+
+.inner-container{
+  display:flex; 
+  flex-direction:row; 
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+}
+
+.navbar{
+  display: flex;
+  justify-content:flex-end;
+  margin-right: 2rem
+}
+
+.aside{
+  display: flex
+}
+
+.nav-one{
+margin-right: 1rem;
+}
+
+.il-img{
+  width:65%
+}
+
+.r-logo{
+  display:flex;
+  justify-content:flex-start;
+  padding-left: 22px;
+  margin-top: 1.5em
+}
